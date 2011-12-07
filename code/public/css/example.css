@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, Helvetica
+}
+
+a, a:hover, a:active, a:visited {
+  color: #0000af;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+#container {
+  width: 650px;
+  margin: 0px auto;
+  padding: 0px;
+  background-color: #eee
+}
+
+header {
+  text-align: center;
+  padding: 5px;
+  margin: 0px 0px 0px 0px;
+  background-color: #cfcfcf;
+}
+
+h1, h2{
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  padding: 5px 0px
+}
+
+article {
+  padding: 5px
+}
+
+footer {
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 8pt;
+  text-align: right;
+  background-color: #777;
+  color: #fff;
+}
+
+#message-form {
+  border-top: 1px solid #777;
+  padding-top: 5px;
+}
+
+#message-form label {
+  clear: both;
+  display: block;
+}
+
+#message-form textarea {
+  width: 635px;
+  height: 50px;
+  float: right;
+  clear: both;
+}
+
+#save-cancel {
+  text-align: right
+}
+
+footer a, footer a:hover, footer a:active, footer a:visited {
+  color: #fff;
+  text-decoration: underline;
+}
