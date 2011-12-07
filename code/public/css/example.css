@@ -48,8 +48,8 @@ footer {
 }
 
 #message-form {
-  border-top: 1px solid #777;
-  padding-top: 5px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
 }
 
 #message-form label {

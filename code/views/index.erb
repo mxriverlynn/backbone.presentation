@@ -1,5 +1,13 @@
 <h2>Say stuff!</h2>
 <div id="messages">
+  <ul>
+    <% @messages.each do |id, message| %>
+      <li>
+        <%= message[:id] %>:
+          <%= message[:text] %>
+      </li>
+    <% end %>
+  </ul>
 </div>
 
 <div id="message-form">
