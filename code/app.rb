@@ -26,7 +26,7 @@ post '/msg' do
 
   msg_data = JSON.parse(request.body.read.to_s)
   msg = {
-    text: msg_data["message"]
+    message: msg_data["message"]
   }
 
   id = @messages.keys.max + 1
@@ -43,7 +43,7 @@ put "/msg/:id" do
 
   msg_data = JSON.parse(request.body.read.to_s)
   msg = @messages[id]
-  msg[:text] = msg_data["message"]
+  msg[:message] = msg_data["message"]
 
   content_type :json
   msg.to_json
@@ -65,19 +65,19 @@ def get_messages
   messages = {};
   messages[0] = {
     id: 0,
-    text: "I'm a message!"
+    message: "I'm a message!"
   }
   messages[1] = {
     id: 1,
-    text: "I'm a another message!"
+    message: "I'm a another message!"
   }
   messages[2] = {
     id: 2,
-    text: "Yet again, a message."
+    message: "Yet again, a message."
   }
   messages[3] = {
     id: 3,
-    text: "I think you get the idea..."
+    message: "I think you get the idea..."
   }
 
   set :messages, messages
