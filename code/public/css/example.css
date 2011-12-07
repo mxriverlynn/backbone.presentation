@@ -65,7 +65,8 @@ footer {
 }
 
 #save-cancel {
-  text-align: right
+  text-align: right;
+  font-size: 10pt;
 }
 
 footer a, footer a:hover, footer a:active, footer a:visited {
