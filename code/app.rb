@@ -10,7 +10,7 @@ end
 
 get '/msg' do
   content_type :json
-  get_messages.to_json
+  get_messages.values.to_json
 end
 
 get '/msg/:id' do

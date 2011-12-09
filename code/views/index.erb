@@ -1,16 +1,11 @@
 <h2>Say stuff!</h2>
 <div id="message-list">
-  <ul>
-    <% @messages.each do |id, message| %>
-      <li>
-        <%= message[:id] %>:
-        <%= message[:message] %>
-      </li>
-    <% end %>
-  </ul>
+  <ul></ul>
 </div>
 
-<div id="add-message">
+<div id="content_area"></div>
+
+<script id="add-message-template" type="text/x-jquery-tmpl">
   <form id="message-form">
     <label>What do you want to say? </label>
     <textarea id="message"></textarea>
@@ -19,4 +14,4 @@
       <input id="sayit" type="submit" value="Say it!">
     </div>
   </form>
-</div>
+</script>
