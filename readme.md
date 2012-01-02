@@ -13,8 +13,8 @@ In this presentation, you'll learn how to get Backbone.js up and running on
 [Sinatra, ASP.NET MVC], quickly. Derick Bailey will walk you through building
 a sample application from the ground up, illustrating many of the most important
 concepts and constructs in Backbone. He'll also show you some of the tricks and
-some of the hard lessons that he has learned, to create larger apps while
-keeping your code clean and organized.
+some of the hard lessons that he has learned while creating apps of all sizes -
+all with the goal of clean, organized code.
 
 ## Code Samples
 
